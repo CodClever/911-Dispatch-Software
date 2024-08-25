@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>911 Dispatch</title>
+</head>
+<body>
+    <form action="index.html">
+        <label for="options">Apparent MISCARRIAGE or STILLBIRTH: </label>
+        <select id="options" name="options" required>
+            <option value="no">No</option>
+            <option value="miscarriage">MISCARRIAGE (fetus or tissue)</option>
+            <option value="thereatened-miscarriage">Threatened MISCARRIAGE (contractions)</option>
+            <option value="stillbirth">STILLBIRTH (non-viable baby born)</option>
+        </select><br>
+
+        <label for="options">How many <b>weeks</b> (or <b>months</b>) pregnant is she? </b>: </label>
+        <select id="options" name="options" required>
+            <option value="3rdtrimester">24+ wks (6-9 mos) 3rd TRIMESTER</option>
+            <option value="2sttrimester">13-23 wks (4-5 mos) 2nd TRIMESTER</option>
+            <option value="1sttrimester">0-12 wks (0-3 mos) 1st TRIMESTER</option>
+            <option value="knows">Knows due date</option>
+            <option value="unknown">Unknown</option>
+        </select><br>
+
+        <label for="options">Can you <b>see</b> any part of the <b>baby</b> now?: </label>
+        <select id="options" name="options" required>
+            <option value="no">No</option>
+            <option value="complete-out">Baby completely out</option>
+            <option value="hand">Head visible (crowning)</option>
+            <option value="head">Head out</option>
+            <option value="umbilical-cord">Umbilical cord</option>
+            <option value="hands">Hands</option>
+            <option value="feet">Feet</option>
+            <option value="buttocks">Buttocks</option>
+            <option value="something">Something out (not sure what)</option>
+            <option value="cant-check">Can't check</option>
+        </select><br>
+
+        <label for="options"><b>Caller mention of a multiple birth: </b></label>
+        <select id="options" name="options" required>
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+        </select><br>
+
+
+        <input type="submit" value="Submit">
+    </form><br><br>
+
+
+    <form>
+        <label for="options">Is the baby <b>crying</b> or <b>breathing</b>: </b></label>
+        <select id="options" name="options" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select><br>
+
+        <input type="submit" value="Submit">
+    <form>
+
+    </form>
+</body>
+</html>
