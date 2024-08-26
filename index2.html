@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>911 Dispatch</title>
+</head>
+<body>
+    <form action="index3.html">
+        <div class="row">
+            <div class="col-25">
+                <label for="location">Location is: </label>
+            </div>
+            <div class="col-75">
+                <input type="text" required><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="phone-no">Phone number is: </label>
+            </div>
+            <div class="col-75">
+                <input type="text" required><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="apt-ste">Apt/Ste: </label>
+            </div>
+            <div class="col-75">
+                <input type="text" required><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+            <label for="problem"><b>tell me exactly what happend.: </b></label>
+            </div>
+            <div class="col-75">
+            <select id="options" name="options" required>
+                <option value="unconcious">Obviously NOT BREATHING & Unconcious (non-traum)</option>
+                <option value="choke">Verified Choking - COMPLETE obstruction</option>
+                <option value="hang">Hanging</option>
+                <option value="strangulate">Strangulation (no assailant involved)</option>
+                <option value="suffocate">Suffocation</option>
+                <option value="underwater-domestic">Underwater (DOMESTIC rescue)</option>
+                <option value="underwater-specialized">Underwater (SPECIALIZED rescue)</option>
+                <option value="sinking-vechile">Sinking vechile - Caller inside</option>
+                <option value="vechile-floodwater">Vechile in floodwater - Caller inside</option>
+                <option value="pregnancy">Pregnancy / Childbirth / Miscarriage</option>
+                <option value="preganacy-nocontractions">Pregnancy problem (no contractions or birth)</option>
+                <option value="others">Others(If yes, then please sepcify in the box below.)</option>
+            </select><br>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+            <label for="others">Others: </label>
+            </div>
+            <div class="col-75">
+            <textarea id="comment" name="comment" required></textarea>
+            </div>
+        </div>
+
+
+        <input type="submit" value="Submit">
+    </form><br><br>
+
+
+    <p1><b>(Choking - verify)</b> <b>"is s/he breathing or coughing at all?</b> (You go check and tell me what you find.)" <b>Then tell caller: </b><b>"Do not slap her/him on the back.</b></p1>
+</body>
+</html>
